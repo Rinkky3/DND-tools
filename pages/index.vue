@@ -7,6 +7,7 @@
       >
         <nuxt-link :to="`/${page.toLowerCase().split(' ').join('-')}`">
           With {{ page }}
+          Hellow World
         </nuxt-link>
       </li>
     </ul>
