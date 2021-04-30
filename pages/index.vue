@@ -6,7 +6,7 @@
         :key="page"
       >
         <nuxt-link :to="`/${page.toLowerCase().split(' ').join('-')}`">
-          With {{ page }}
+          With gay {{ page }}
         </nuxt-link>
       </li>
     </ul>
