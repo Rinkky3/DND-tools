@@ -6,7 +6,9 @@ const config: NuxtConfig = {
     '@nuxtjs/composition-api/module',
     '@nuxt/typescript-build'
   ],
-  css: [],
+  css: [
+      '~/assets/_variables.scss'
+  ],
   env: {},
   head: {
     title: 'nuxt-community/typescript-template',

@@ -1,0 +1,45 @@
+
+//------------------
+//  Padding/Margin
+//------------------
+
+// $padding-sizes: 5;
+// $positions: top, bottom, right, left, vertical, horizontal;
+
+// @for $size from 1 through $padding-sizes {
+//     .padding-#{$size} {
+//         padding: #{0.5 * $size}rem;
+//     }
+
+//     .padding-vertical-#{$size} {
+//         padding: #{0.5 * $size}rem 0;
+//     }
+
+//     .padding-horizontal-#{$size} {
+//         padding: 0 #{0.5 * $size}rem;
+//     }
+
+//     @each $position in $positions {
+//         .padding-#{$position}-#{$size} {
+//             padding-#{$position}: #{0.5 * $size}rem;
+//         }
+//     }
+
+//     .margin-#{$size} {
+//         margin: #{0.5 * $size}rem;
+//     }
+
+//     .margin-vertical-#{$size} {
+//         margin: #{0.5 * $size}rem 0;
+//     }
+
+//     .margin-horizontal-#{$size} {
+//         margin: 0 #{0.5 * $size}rem;
+//     }
+
+//     @each $position in $positions {
+//         .margin-#{$position}-#{$size} {
+//             margin-#{$position}: #{0.5 * $size}rem;
+//         }
+//     }
+// }
