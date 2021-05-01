@@ -1,18 +1,16 @@
 <template>
   <main>
-    <ul>
-      <li
-        v-for="page in ['Options API', 'Class API', 'Composition API']"
-        :key="page"
-      >
-        <nuxt-link :to="`/${page.toLowerCase().split(' ').join('-')}`">
-          With {{ page }}
-          Hellow World
-        </nuxt-link>
-      </li>
-    </ul>
+      index
   </main>
 </template>
 
 <script lang="ts">
+import { Vue, Component, Prop } from 'nuxt-property-decorator';
+@Component({
+    layout: 'baseview'
+})
+export default class index extends Vue {
+}
 </script>
+<style scoped lang="scss">
+</style>
